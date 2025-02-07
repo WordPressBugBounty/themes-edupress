@@ -18,7 +18,7 @@ if( ! defined( 'ILOVEWP_THEME_VIDEO_GUIDE' ) ) {
 	define( 'ILOVEWP_THEME_VIDEO_GUIDE', 'https://youtu.be/YFiq907Nv1g');
 }
 if( ! defined( 'ILOVEWP_THEME_VIDEO_COMPARISON' ) ) {
-	define( 'ILOVEWP_THEME_VIDEO_COMPARISON', false);
+	define( 'ILOVEWP_THEME_VIDEO_COMPARISON', 'https://youtu.be/pxNKBXG4clY');
 }
 if( ! defined( 'ILOVEWP_THEME_DOCUMENTATION_URL' ) ) {
 	define( 'ILOVEWP_THEME_DOCUMENTATION_URL', 'https://www.ilovewp.com/documentation/edupress/?utm_source=dashboard&utm_medium=doc-page&utm_campaign=edupress&utm_content=documentation-link' );
@@ -30,7 +30,7 @@ if( ! defined( 'ILOVEWP_THEME_REVIEW_URL' ) ) {
 	define( 'ILOVEWP_THEME_REVIEW_URL', 'https://wordpress.org/support/theme/edupress/reviews/#new-post' );
 }
 if( ! defined( 'ILOVEWP_THEME_UPGRADE_URL' ) ) {
-	define( 'ILOVEWP_THEME_UPGRADE_URL', false );
+	define( 'ILOVEWP_THEME_UPGRADE_URL', 'https://www.ilovewp.com/product/magma/?utm_source=dashboard&utm_medium=doc-page&utm_campaign=edupress&utm_content=upgrade-button' );
 }
 if( ! defined( 'ILOVEWP_THEME_DEMO_IMPORT_URL' ) ) {
 	define( 'ILOVEWP_THEME_DEMO_IMPORT_URL', false );
@@ -121,6 +121,17 @@ function ilovewp_settings_page_doc() {
 					</div><!-- .ilovewp-doc-column-wrapper -->
 				</li><!-- .ilovewp-doc-column --><li class="ilovewp-doc-column ilovewp-doc-column-2">
 					<div class="ilovewp-doc-column-wrapper">
+						<?php if ( ILOVEWP_THEME_UPGRADE_URL ) { ?>
+						<div class="doc-section">
+							<h3 class="column-title"><span class="ilovewp-icon dashicons dashicons-cart"></span><span class="ilovewp-title-text"><?php esc_html_e('Upgrade to Magma','edupress'); ?></span></h3>
+							<div class="ilovewp-doc-column-text-wrapper">
+								<p><?php esc_html_e('Build a fast, professional, and easy-to-manage website with Magma—a lightweight, high-performance theme designed for content-driven websites. Whether you’re creating a blog, a business site, or an organization’s homepage, Magma gives you full control without the bloat.','edupress'); ?><br>
+
+								<p class="doc-buttons"><a class="button button-primary" href="<?php echo esc_url(ILOVEWP_THEME_UPGRADE_URL); ?>" rel="noopener" target="_blank"><?php esc_html_e('More about Magma','edupress'); ?></a><?php if ( ILOVEWP_THEME_VIDEO_COMPARISON ) { ?><a class="button button-primary ilovewp-button ilovewp-button-youtube" href="<?php echo esc_url(ILOVEWP_THEME_VIDEO_COMPARISON); ?>" rel="noopener" target="_blank"><span class="dashicons dashicons-youtube"></span> <?php esc_html_e('Video about Magma','edupress'); ?></a><?php } ?></p>
+
+							</div><!-- .ilovewp-doc-column-text-wrapper-->
+						</div><!-- .doc-section -->
+						<?php } ?>	
 						<?php if ( ILOVEWP_THEME_REVIEW_URL ) { ?>
 						<div class="doc-section">
 							<h3 class="column-title"><span class="ilovewp-icon dashicons dashicons-awards"></span><span class="ilovewp-title-text"><?php esc_html_e('Leave a Review','edupress'); ?></span></h3>

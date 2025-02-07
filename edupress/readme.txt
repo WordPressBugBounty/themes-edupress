@@ -5,7 +5,7 @@ Tags: blog, education, news, footer-widgets, one-column, two-columns, left-sideb
 
 Requires at least: 5.0
 Tested up to: 6.7.1
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,6 +14,10 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 EduPress is a modern theme with a two-column layout. It is most suitable for education, business, corporate and non-profit websites.
 The front page displays a tabbed slideshow with 2-4 featured pages, and can work with your latest posts or a static page instead.
 
+== License ==
+
+EduPress WordPress theme, Copyright (C) 2025 ILOVEWP
+EduPress WordPress theme is licensed under the GPL3.
 
 == Installation ==
 

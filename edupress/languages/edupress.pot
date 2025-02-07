@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduPress\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-09 14:06+0000\n"
+"POT-Creation-Date: 2025-02-07 20:13+0000\n"
 "POT-Revision-Date: Tue Apr 11 2017 13:53:00 GMT+0200 (W. Europe Daylight "
 "Time)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -60,6 +60,14 @@ msgstr ""
 
 #: footer.php:7
 msgid "All Rights Reserved"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:128
+msgid ""
+"Build a fast, professional, and easy-to-manage website with Magma—a "
+"lightweight, high-performance theme designed for content-driven websites. "
+"Whether you’re creating a blog, a business site, or an organization’s "
+"homepage, Magma gives you full control without the bloat."
 msgstr ""
 
 #: template-parts/content-single.php:20 template-parts/content.php:32
@@ -120,6 +128,16 @@ msgid "Copyright &copy;"
 msgstr ""
 
 #. %1$s current user display name.
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:64
+#, php-format
+msgid ""
+"Dear %1$s! %3$sIf you like using this theme, you’ll love Magma—a fantastic, "
+"high-performance theme designed to help you build a professional WordPress "
+"website with ease. %4$s is fast, flexible, and built for content-driven "
+"websites, giving you full control without unnecessary bloat."
+msgstr ""
+
+#. %1$s current user display name.
 #: ilovewp-admin/admin-notices/ilovewp-notice-review.php:62
 #, php-format
 msgid ""
@@ -131,6 +149,10 @@ msgstr ""
 
 #: inc/customizer.php:89 inc/customizer.php:751
 msgid "Default"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:75
+msgid "Discover Magma today!"
 msgstr ""
 
 #: inc/customizer.php:304
@@ -166,6 +188,7 @@ msgid "Edit"
 msgstr ""
 
 #. Name of the theme
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:56
 #: ilovewp-admin/admin-notices/ilovewp-notice-review.php:54
 #: ilovewp-admin/admin-notices/ilovewp-notice-welcome.php:47
 msgid "EduPress"
@@ -290,7 +313,7 @@ msgstr ""
 msgid "https://www.ilovewp.com/themes/edupress/"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:128
+#: ilovewp-admin/ilovewp-theme-settings.php:139
 msgid ""
 "If you enjoy using EduPress Theme, please leave a review for it on WordPress."
 "org. It helps us continue providing updates and support for it."
@@ -322,7 +345,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:126
+#: ilovewp-admin/ilovewp-theme-settings.php:137
 msgid "Leave a Review"
 msgstr ""
 
@@ -336,6 +359,10 @@ msgstr ""
 
 #: inc/customizer.php:201
 msgid "Link Color :hover"
+msgstr ""
+
+#: ilovewp-admin/admin-notices/ilovewp-notice-magma.php:75
+msgid "Magma Video Guide"
 msgstr ""
 
 #: ilovewp-admin/sidebars.php:9
@@ -357,6 +384,10 @@ msgstr ""
 
 #: functions.php:52 template-parts/mobile-menu.php:14
 msgid "Mobile Menu"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:130
+msgid "More about Magma"
 msgstr ""
 
 #: comments.php:46 comments.php:67
@@ -484,11 +515,11 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:148
+#: ilovewp-admin/ilovewp-theme-settings.php:159
 msgid "Subscribe"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:140
+#: ilovewp-admin/ilovewp-theme-settings.php:151
 msgid "Subscribe to our newsletter"
 msgstr ""
 
@@ -581,22 +612,30 @@ msgid ""
 "look at the <a href=\"%2$s\">Get Started with %1$s</a> page."
 msgstr ""
 
+#: ilovewp-admin/ilovewp-theme-settings.php:126
+msgid "Upgrade to Magma"
+msgstr ""
+
 #: template-parts/content-single.php:22 template-parts/content.php:34
 msgctxt "Used on archive and post pages to separate multiple categories."
 msgid ", "
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:130
+msgid "Video about Magma"
 msgstr ""
 
 #: ilovewp-admin/ilovewp-theme-settings.php:104
 msgid "View EduPress Documentation"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:143
+#: ilovewp-admin/ilovewp-theme-settings.php:154
 msgid ""
 "We send out the newsletter once every few months. It contains information "
 "about our new themes and important theme updates."
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:150
+#: ilovewp-admin/ilovewp-theme-settings.php:161
 msgid ""
 "We use Mailchimp as our marketing platform. By clicking above to subscribe, "
 "you acknowledge that your information will be transferred to Mailchimp for "
@@ -607,7 +646,7 @@ msgstr ""
 msgid "Widget Title Background Color"
 msgstr ""
 
-#: ilovewp-admin/ilovewp-theme-settings.php:130
+#: ilovewp-admin/ilovewp-theme-settings.php:141
 msgid "Write a Review for EduPress"
 msgstr ""
 

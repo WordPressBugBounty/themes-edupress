@@ -6,7 +6,7 @@ if ( ! isset( $content_width ) ) $content_width = 780;
  * Define some constats
  */
 if( ! defined( 'ILOVEWP_VERSION' ) ) {
-	define( 'ILOVEWP_VERSION', '1.7.0' );
+	define( 'ILOVEWP_VERSION', '1.7.1' );
 }
 if( ! defined( 'ILOVEWP_THEME_LITE' ) ) {
 	define( 'ILOVEWP_THEME_LITE', true );
@@ -255,6 +255,7 @@ if( is_admin() ) {
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notices.php');
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-welcome.php');
 		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-review.php');
+		require_once(get_template_directory() . '/ilovewp-admin/admin-notices/ilovewp-notice-magma.php');
 
 		// Remove theme data from database when theme is deactivated.
 		add_action('switch_theme', 'edupress_db_data_remove');
